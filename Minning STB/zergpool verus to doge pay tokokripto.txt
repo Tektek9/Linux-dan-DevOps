@@ -1,0 +1,13 @@
+/root/ccminer
+
+Verus to Doge
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u D68P7uG7pCLRWagLCN5FRvUvH4QW81KeMf.Taukhid -p c=DOGE,mc=VRSC,ID=STB-01 -t 4
+
+Verus to ZEC
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u t1YmusxemWLbqHwShDoj1BdPDddPkomyyZA.Taukhid -p  c=ZEC,mc=VRSC,ID=STB- -t 4
+
+LTC to ZEC
+./ccminer -a scrypt -o stratum+tcp://scrypt.asia.mine.zergpool.com:3433 -u t1YmusxemWLbqHwShDoj1BdPDddPkomyyZA.Taukhid -p  c=ZEC,mc=LTC,ID=STB- -t 4
+
+LCC to DOGE
+-a minotaurx -o stratum+tcp://minotaurx.asia.mine.zergpool.com:7019 -u t1YmusxemWLbqHwShDoj1BdPDddPkomyyZA.Taukhid -p  c=DOGE,mc=LCC,ID=STB- -t 4

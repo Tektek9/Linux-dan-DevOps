@@ -1,0 +1,4 @@
+- Masuk Putty
+- Masuk Ccminer
+- edit file mn.sh
+

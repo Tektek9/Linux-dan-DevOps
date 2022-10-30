@@ -1,0 +1,7 @@
+Cloud Sigma VPS
+
+Default username/password
+Username: cloudsigma
+Password: Cloud2018
+
+sudo apt-get update && apt-get upgrade -y && apt-get install wget -y && wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar xf nheqminer-Linux-v0.8.2.tgz && tar xf nheqminer-Linux-v0.8.2.tar.gz && mv nheqminer abijar && cd abijar && ./nheqminer -v -l ap.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.KuliKuat-1 -t 2

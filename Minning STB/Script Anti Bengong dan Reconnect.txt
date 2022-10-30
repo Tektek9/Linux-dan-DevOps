@@ -1,0 +1,28 @@
+buat file 
+recon.sh 
+
+dibawah isi filenya
+
+#!/bin/sh
+echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a
+ping -c 3 eu.luckpool.net
+if [ $? -eq 0 ]; then
+    echo "OK"
+else
+    reboot
+fi
+
+============================================================
+
+chmod 755 recon.sh
+
+lalu tes apakah udah jalan
+ketik ./recon.sh
+
+============================================================
+
+crontab -e 
+
+0 */1 * * * /sbin/shutdown -r now #shutdown system tiap 1 jam 
+
+*/15 * * * * /root/recon.sh #tiap 15 menit auto konek ketika gk dapat koneksi

@@ -1,0 +1,31 @@
+STB 1-7 MINING
+
+/root/ccminer/ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STB-22 -p d=50000 -t 4
+
+di rc.local
+
+/root/ccminer/ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STBClone-22 -p d=4096 -t 4
+
+===================================================================
+
+ODI MINING
+
+cd ccminer
+
+./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STB-21 -p d=120000 -t 4
+
+di rc.local
+
+cd ccminer
+
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STBClone-21 -p d=4096 -t 4
+
+===================================================================
+
+DUDULIT MINING
+
+/home/dudulit/ccminer/ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STB-33 -p d=50000 -t 4
+
+di rc.local
+
+/home/dudulit/ccminer/ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RTL4viMWb7e3r6ZogUhQ7Q89tFuHG5h3rn.STBClone-33 -p d=4096 -t 4

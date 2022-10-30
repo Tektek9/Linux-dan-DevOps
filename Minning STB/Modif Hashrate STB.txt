@@ -1,0 +1,14 @@
+Modif Hashrate STB
+
+Cd /ccminer
+
+rm pools.conf && rm run && rm -rf verus && rm -rf equi && nano ccminer.conf
+
+Modif teks yang ada di ccminer.conf sisakan ini
+{
+        "_comment1" : "Possible keys are the long options (ccminer --help)",
+        "_comment2" : "todo: support /* comments */"
+}
+
+
+menghilangkan wallet yang buat aplikasi

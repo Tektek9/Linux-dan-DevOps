@@ -1,0 +1,17 @@
+3Rig STB Minning
+
+1 verus = 8.8578 doge
+1 Doge = 1705.96 idr
+perhari 4.5 doge = 7715.07 idr
+
+1 verus = 1.0575 usdt
+1 usdt = 14350.35 idr
+perhari 0.537512 usdt = 7713.49 idr
+
+1 verus = 0.006261 zcash
+1 zcash = 2.423.000 idr
+perhari 0.003170 zcash = 7721.22 idr
+
+1 verus = 19.01 rvn
+1 rvn = 800.89 idr
+perhari 9.6549 rvn = 7717.08 idr

@@ -1,0 +1,8 @@
+Spek Kere Mining:
+- Proci disesuaikan dengan Spek Mobo
+- Mobo Spek mulai H61
+- Ram 4gb
+- Fan CPU Standart
+- Storage pakai SSD 120gb
+- Raiser(Converter PCI x1 to PCI x16 atau VGA eksternal), ciri yang bagus kapasitor ada 8
+- Windows 10

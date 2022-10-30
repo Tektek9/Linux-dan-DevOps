@@ -1,0 +1,5 @@
+masuk ke folder ccminer
+lalu ketik "sudo crontab -e"
+
+lalu copas ini:
+@reboot bash /home/odi/script.sh > /home/odi/ccminer/miner.log 2>&1
