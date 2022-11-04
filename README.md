@@ -2,7 +2,7 @@
 
 Berisikan berbagaimacamn ketikan untuk linux, mulai:
 
-Skrip Shell
-Script Mining STB dengan menggunakan Linux Armbian
-Dokumentasi
-dll
+- Skrip Shell
+- Script Mining STB dengan menggunakan Linux Armbian
+- Dokumentasi
+- dll
