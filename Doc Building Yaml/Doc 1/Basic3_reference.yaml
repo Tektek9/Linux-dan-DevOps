@@ -1,0 +1,55 @@
+#yaml Reference 
+
+#SEBELUM diberikan reference
+#Maka pengisian data dilakukan satupersatu secara manual
+#Contohnya seperti pada data dibawah ini
+
+# Agung:
+#   nilai: A
+#   status: Sangat memuaskan
+
+# Budi:
+#   nilai: B
+#   status: Memuaskan
+
+# Nata:
+#   nilai: C
+#   status: Cukup
+
+# Ima:
+#   nilai: D
+#   status: Kurang
+
+# Yono:
+#   nilai: E
+#   status: Sangat Kurang
+
+#SETELAH diberikan sebuah reference
+nilaiA: &A #fungsi "&" adalah sebagai referensi
+  nilai: A #nilai referensi A
+  status: Sangat memuaskan #nilai referensi A
+nilaiB: &B
+  nilai: B
+  status: Memuaskan
+nilaiC: &C
+  nilai: C
+  status: Cukup
+nilaiD: &D
+  nilai: D
+  status: Kurang
+nilaiE: &E
+  nilai: E
+  status: Sangat Kurang
+
+
+Agung: *A #fungsi dari angker atau "*" adalah untuk memanggil referensi dan isi datanya
+
+Budi: *B
+
+Nata: *C
+
+Ima: *D
+
+Yono: *E
+
+#Kesimpulan adalah membuat sebuah reference hampir seperti membuat variabel yang nantinya dipanggil isidatanya

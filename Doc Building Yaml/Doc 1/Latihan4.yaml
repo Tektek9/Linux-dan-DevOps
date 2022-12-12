@@ -1,0 +1,96 @@
+#Soal Array in List
+
+#Silahkan 3 list yang didalamnya terdapat 3 data array
+#Buatlah isi data array dengan format int, float, boolean
+#Setelah itu panggil semua data tersebut
+
+{
+  {
+    name: Bobi,
+    age: 24,
+    is_married: False
+  },
+  {
+    name: Taufik,
+    age: 34,
+    is_married: True
+  },
+  {
+    name: Yudi,
+    age: 23,
+    is_married: False
+  }
+}
+---
+{
+  {
+    name: Wahyu,
+    age: 23,
+    is_married: True
+  },
+  {
+    name: Andi,
+    age: 34,
+    is_married: True
+  },
+  {
+    name: Manda,
+    age: 45,
+    is_married: True
+  }
+
+}
+---
+{
+  {
+    name: Maman,
+    age: 45,
+    is_married: True
+  },
+  {
+    name: Yunus,
+    age: 23,
+    is_married: False
+  },
+  {
+    name: Mahmud,
+    age: 45,
+    is_married: False
+  }
+}
+---
+name: Bobi
+age: 24
+is_married: False
+---
+name: Taufik
+age: 34
+is_married: True
+---
+name: Yudi
+age: 23
+is_married: False
+---
+name: Wahyu
+age: 23
+is_married: True
+---
+name: Andi
+age: 34
+is_married: True
+---
+name: Manda
+age: 45
+is_married: True
+---
+name: Maman
+age: 45
+is_married: True
+---
+name: Yunus
+age: 23
+is_married: False
+---
+name: Mahmud
+age: 45
+is_married: False

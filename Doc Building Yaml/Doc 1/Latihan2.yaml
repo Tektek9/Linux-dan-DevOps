@@ -1,0 +1,40 @@
+#Soal Basic List
+
+#Buatlah data bebas
+#List String, Bool, Interger, Float versi biasa dan versi lazim dengan pemisah
+
+#List String Biasa
+- Taukhid
+- Aji
+- Nurwijayadi
+
+#List Bool Biasa
+- True
+- False
+
+#List Float Biasa
+- 23.6
+- 34.6
+- 56.7
+
+#List Interger Biasa
+- 56
+- 67
+- 89
+
+---
+
+#List lazim String
+[Taukhid, Aji, Nurwijayadi]
+
+---
+#List lazim Bool
+[True, False]
+
+---
+#List lazim Float
+[23.6, 34.6, 56.7]
+
+---
+#List lazim Interger
+[56, 67, 89]

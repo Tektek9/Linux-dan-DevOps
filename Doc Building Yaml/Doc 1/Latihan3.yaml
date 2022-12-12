@@ -1,0 +1,35 @@
+#Soal Basic Reference
+#Buatkan sebuah dokumentasi yang berisikan reference jenis buah dan sayur
+#Buatlah sebuah reference harga dan stok
+#Yangmana semua reference tersebut dipanggil
+
+jenisB: &B
+  - jenis: Buah
+
+jenisS: &S
+  - jenis: Sayur
+
+Bayam: 
+  - *S
+  - Harga: 12000
+  - Stok: 500
+
+Wortel:
+  - *S
+  - Harga: 15000
+  - Stok: 400
+
+Tomat:
+  - *S
+  - Harga: 6000
+  - Stok: 100
+
+Semangka:
+  - *B
+  - Harga: 25000
+  - Stok: 1000
+
+Jeruk:
+  - *B
+  - Harga: 10000
+  - Stok: 300

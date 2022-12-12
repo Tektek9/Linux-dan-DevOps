@@ -1,0 +1,76 @@
+#yaml dari assosiatif array
+
+#Value bisa berupa string, float, interger, boolean, list, date, timestamp, array, dll
+#String bisa menggunakan "kata-kata" atau bisa 'kata-kata' tetapi juga bisa langsung tanpa "" dan ''
+#Aturan tipedata sama dengan bahasa pemrograman lainnya
+
+namaDepan: Taukhid #String
+namaTengah: "Aji" #String
+namaBelakang: 'Nurwijayadi' #String
+usia: 24 #Interger
+pesan: | #fungsi dari "|" nantinya apabila diparsing oleh berbagai bahasa pemrograman maka value akan tetap, dan tidak berubah termasuk "enter-nya"
+  wk wk wk 
+  wk wk wk
+  wk wk wk
+  wk wk wk
+#untuk yaml pengetikan value wajib setelah variabel atau kalau pada kasus variabel pesan bisa dengan menggunakan tab agar tidak terdeteksi sebagai variabel baru
+#pesan: "Ketika pesan ini diaktifkan (hapus #) maka akan terjadi error karena variabelnya tidak boleh ada yang sama"
+pesan2: > #fungsi dari ">" ketika diparsing akan menjadi string 1 baris
+  oi oi oi
+  oi oi oi
+  oi oi oi
+  oi oi oi
+bb: 56.78 #float
+tb: 100 #interger
+size: "67" #interger diparse manjadi String
+is_married: False #boolean
+is_working: True #boolean
+
+# berikut dibawah ini adalah sebuah data pada yaml / 1 data yaml dokumen
+# { 
+#   namaDepan: Taukhid,
+#   namaTengah: "Aji",
+#   namaBelakang: 'Nurwijayadi',
+#   usia: 24,
+#   bb: 53.66,
+#   is_married: False,
+#   is_working: True
+# } apabila diaktifkan maka akan terdeteksi sebagai data ke-2, yangmana data ke-1 dan data ke-2 tidak ada hubungannya
+#Bisa membuat banyak data di yaml akan tetapi harus ada hubungannya satusamalain
+
+#Ciri data memiliki hubungan satusamalain adalah 
+Taukhid1: #Data ke 1
+  namaDepan: Taukhid
+  namaTengah: "Aji" 
+  namaBelakang: 'Nurwijayadi'
+  usia: 24
+  pesan: |
+    wk wk wk 
+    wk wk wk
+    wk wk wk
+    wk wk wk
+
+Taukhid2: #Data ke 2
+  namaDepan: Taukhid
+  namaTengah: "Aji" 
+  namaBelakang: 'Nurwijayadi'
+  usia: 24
+  pesan: |
+    wk wk wk 
+    wk wk wk
+    wk wk wk
+    wk wk wk
+
+--- #Pemisah antar dokumen dalam 1 file/stream
+
+{
+  namaDepan: Taukhid,
+  namaTengah: "Aji",
+  namaBelakang: 'Nurwijayadi',
+  usia: 24,
+  bb: 53.66,
+  is_married: False,
+  is_working: True
+} #apabila variabel dimasukan kedalam kurung, maka wajib diberikan koma
+
+... #Sebagai tanda akhir file (sifatnya optional)

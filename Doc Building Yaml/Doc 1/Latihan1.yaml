@@ -1,0 +1,52 @@
+#SoalBasic Assosiatif Array
+#Silahkan isi sesuai perintah dibawah
+
+#Float
+beratBadan: 56.9
+
+#Interger
+umur: 23
+
+#3 jenis String
+string1: jawaban
+string2: 'jawaban'
+string3: "jawaban"
+
+#Boolean
+bekerja: True
+bekerja2: False
+
+#Parsing int ke String
+intString: "23"
+
+#Parsing float ke String
+floatString: "23.6"
+
+#Parsing boolean ke String
+boolString: "True"
+boolString2: "False"
+
+#String format tetap ketika di upload
+formatTetap: |
+  anjay anjay anjay
+  anjay anjay anjay
+  anjay anjay anjay
+
+#Pemisah antar dokumen
+---
+
+#Buatlah data 1 - 3
+data1: 
+  - nama: CukiD
+  - umur: 24
+
+data2:
+  - nama: Yadi
+  - umur: 24
+
+data3:
+  - nama: Amoy
+  - umur: 25
+
+#Tanda akhir file
+...

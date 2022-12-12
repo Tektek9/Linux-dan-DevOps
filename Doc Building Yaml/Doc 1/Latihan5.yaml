@@ -1,0 +1,15 @@
+#Soal List didalam Array
+#Buatlah sebuah 2 Data Array berisikan yang didalamnya terdapat 5 data array
+#Format data array Nama = String, Umur = int, Berat Badan = float, Status menikah = boolean
+
+{
+  [Ayu, 23, 56.9, True],
+  [Yudi, 25, 45.8, True],
+  [Anik, 15, 30, False]
+}
+---
+{
+  [Nana, 35, 77.8, True],
+  [Naldi, 25, 66.7, False],
+  [Heri, 67, 88.0, True]
+}

@@ -1,0 +1,32 @@
+#arrayList [] yaml
+[
+  { 
+    #Assosiatif Array ke 1
+    nama: Andi, 
+    usia: 23, 
+  },
+  {
+    #Assosiatif Array ke 2
+    nama: Budi,
+    usia: 31,
+  },
+  {
+    #Assosiatif Array ke 3
+    nama: Yaya,
+    usia: 21,
+  },
+  {
+    nama: Udin,
+    usia: 32,
+  }
+]
+
+---
+
+#Berikut format assosiatif array didalam list
+- nama: Yudi #list ke 1
+  usia: 25
+- nama: Jaya #List ke 2
+  usia: 23
+- nama: Odoy #List ke 3
+  usia: 21

@@ -1,0 +1,28 @@
+#List didalam Array Yaml
+
+{
+  murid: [Yaya, Yudi, Yadi, Yuni, Yono, Yeni], #list
+  mobil: [Brio, Mobilio, Rush, Pajero]
+}
+
+---
+
+murid: #untuk menulisnya wajib mundur sebelum variabel murid yang diatas, karena semua valur diambil dari variabel List diatas
+  - Yaya #value dari murid
+  - Yudi
+  - Yadi
+  - Yono
+  - Yeni
+
+mobil:
+  - Brio
+  - Mobilio
+  - Rush
+  - Pajero
+
+#Bisa diterapkan untuk membuat array associatif yang didalamnya ada array lagi, didalamnya ada list, didalamnya ada value biasa, dst
+#Kegunaan Yaml untuk devops adalah untuk konfigurasi file
+#Dapat digunakan di Kubernetes, Docker, Ansible, di Backend
+#Bisa digunakan untuk di Backend untuk konfigurasi file, server, database
+#Bisa untuk dokumentasi swagger root, endpoint, respon, requestnya
+#Bisa untuk sekedar untuk store data saja
