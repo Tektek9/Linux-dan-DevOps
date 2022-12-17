@@ -1,0 +1,33 @@
+version: '3'
+#versi bisa dicek di web docker compose
+
+services:
+    nodnginx-app:
+        build:
+          context: ./node_app
+          #lokasi aplikasi web
+        container_name: nodenginxserver
+        hostname: nodenginxserver
+        ports:
+            - "3000:3000" 
+        #disesuaikan dengan konfigurasi pada nginx
+        networks:
+            - nodnginx-net
+    nginx:
+        build:
+          context: ./nginx
+          #lokasi nginx
+        container_name: nginx
+        hostname: nginx
+        ports:
+            - "80:80" 
+        depends_on:
+            - nodnginx-app
+        #depens_on untuk mengecek servis nodnginx-app apabila sudah berjalan
+        #maka kanan dijalankan servis nginx
+        networks:
+            - nodnginx-net
+
+networks:
+  nodnginx-net:
+    external: true

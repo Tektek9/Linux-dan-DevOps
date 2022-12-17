@@ -1,0 +1,6 @@
+#konfigurasi nginx by CukiD
+FROM nginx
+
+COPY ./default.conf /etc/nginx/conf.d/
+#berfungsi untuk mengcopy file deault.conf ke dalam folder conf.d
+#konfigurasi nginx by CukiD
