@@ -1,14 +1,15 @@
 #Perintah untuk menjalankan aplikasi web by CukiD
 FROM node:14
+
 WORKDIR /usr/src/app
 #lokasi kerja docker
-COPY ./*.json /usr/src/app/
+COPY package*.json /usr/src/app/
 #peng-copyan file dukungan web disini semua filenya hanya berkestendi .json saja
 RUN npm install
 #install npm
-COPY ./ /usr/src/app/
+COPY . /usr/src/app/
 #meng-copy semua ke lokasi kerja docker
 EXPOSE 3000
 #konfigurasi port ke 3000
-CMD ["node", "app.js"]
+CMD npm start
 #menjalankan aplikasi web
