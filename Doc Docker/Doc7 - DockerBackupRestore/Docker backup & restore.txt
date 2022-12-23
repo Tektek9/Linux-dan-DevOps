@@ -1,0 +1,21 @@
+#DOCKER BACKUP
+#menggunakan perintah docker save
+
+/tmp/backup
+#untuk tempat yang digunakan menaruh file backup
+
+docker save -o /tmp/backupimage.tar debian
+#docker save -o(output) <tempat atau lokasi backup dalam bentuk tar> <image yang akan dibackup>
+
+ls /tmp/
+#apabila terdapat sebuah  file yang bernama sesuai dengan backup file yanf telah dibuat maa proses backup berhasil
+
+#DOCKER RESTORE
+docker rmi -f debian
+#disini berfungsi untuk menghapus image debian yang nantinya akan di restore
+
+docker load -i /tmp/backupimage.tar
+#docker load -i(input) <lokasi image bakupan yang akan direstore>
+
+docker images
+#berguna untuk mengecek image yang tersedia, apabila image yang tadinya dihapus dan ketika dicek tersedia kembali maka proses restore berhasil

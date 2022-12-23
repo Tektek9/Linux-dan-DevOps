@@ -1,0 +1,27 @@
+nano docker-compose.yaml
+#isikan pada file docker-compose.yaml
+version: '3.8'
+services:
+     web:
+        image: taukhidajin/webapp1
+        ports:
+           - 8081:80
+        volumes:
+           - ./app/:/usr/share/nginx/html/
+     app2:
+        image: taukhidajin/webapp1
+        ports:
+           - 8082:80
+#ingat untuk lurus txt harus diperhatikan karena yaml sangat sensitif seperti python
+#disini saya akan membuat file  docker compose yaml yang nantinya berisikan sebuah perintah yang dapart berguna untuk automation docker
+
+
+
+
+
+docker-compose up -d
+#dimana perintah ini berguna untuk menjalankan docker compose yang telah dibuat dan dnegan menggunakan daemon, agar lognya tidak terlihat
+
+docker-compose logs
+#berguna untuk menampilkan log atau jejak docker yang berjalan saat ini
+
